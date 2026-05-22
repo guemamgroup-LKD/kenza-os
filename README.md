@@ -1,1 +1,15 @@
-# kenza-os
+{
+  "name": "kenza-os",
+  "version": "1.0.0",
+  "description": "Kenza Beauty Lab — AI Command Center",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "node-fetch": "^2.7.0"
+  }
+}
